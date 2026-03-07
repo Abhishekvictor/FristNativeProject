@@ -14,4 +14,18 @@ const Colloge = ()=>{
   )
 }
 
+// const btn = ()=>{
+//     return(
+//         <View>
+//             <Text>Button will be pressed</Text>
+//             <Button title='ON Pree' color={'red'}/>
+//         </View>
+//     )
+
+
+
+
+
+// }
+
 export default Colloge;

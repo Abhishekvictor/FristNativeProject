@@ -2,10 +2,13 @@ import { StyleSheet, Text, View, Image, Button, TouchableOpacity, Alert, Touchab
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import Colloge from './Componets/componetData.js'
+import Btn from './Componets/button.js'
+
+
 const App = () => {
   return (
     <SafeAreaView>
-
+      <Btn/>
      <Colloge/>
       <Text style={{ fontSize: 30 }}>Components </Text>
       <UserDate/>
@@ -21,12 +24,12 @@ const UserDate = ()=>{
       <Text style={{ fontSize: 20 }}>age : 29 </Text>
       <Text style={{ fontSize: 20 }}>email: Anil@gmail.com </Text>
       
+     
     </View>
 
 
   )
 }
-
 
 export default App
 
