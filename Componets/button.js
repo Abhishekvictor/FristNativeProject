@@ -1,23 +1,13 @@
-import {Text, Button, View, Alert, } from 'react-native'
+import { Text, Button, View, Alert, } from 'react-native'
 
-const testbtn = ()=>{
-    
-    Alert.alert('button is pressed')
-}
-
-
-const Btn = ()=>{
-    return(
+const Btn = () => {
+    return (
 
         <View>
-
-<Button title='Button' onPress={testbtn} color={'red'}
-
-></Button>
-</View>
-
-
-)
+            <Button title='Update Name' onPress={testbtn} color={'red'}
+            />
+        </View>
+    )
 }
 
 export default Btn 

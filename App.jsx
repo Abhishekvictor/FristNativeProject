@@ -1,35 +1,27 @@
 import { StyleSheet, Text, View, Image, Button, TouchableOpacity, Alert, TouchableHighlight, Pressable } from 'react-native'
-import React from 'react'
+import React,{useState} from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import Colloge from './Componets/componetData.js'
 import Btn from './Componets/button.js'
+import PropsUser from './Componets/Props.js'
 
 
 const App = () => {
+
+  const [name, setName]= useState('Abhisek');
+
+  function newUser (){
+    setName('kushi')
+  }
   return (
     <SafeAreaView>
-      <Btn/>
-     <Colloge/>
-      <Text style={{ fontSize: 30 }}>Components </Text>
-      <UserDate/>
-      <UserDate/>
+      <Text style={{ fontSize: 30 }}>{name} </Text>
+      <PropsUser/>
+      
     </SafeAreaView>
   );
 };
 
-const UserDate = ()=>{
-  return(
-    <View>
-      <Text style={{ fontSize: 20 }}>Name: Anil </Text>
-      <Text style={{ fontSize: 20 }}>age : 29 </Text>
-      <Text style={{ fontSize: 20 }}>email: Anil@gmail.com </Text>
-      
-     
-    </View>
-
-
-  )
-}
 
 export default App
 
