@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import Colloge from './Componets/componetData.js'
 import Btn from './Componets/button.js'
 import PropsUser from './Componets/Props.js'
+import StyleApp from './Componets/styling.js'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Text style={{ fontSize: 30 }}>{name} </Text>
       <PropsUser/>
       
+      <StyleApp/>
     </SafeAreaView>
   );
 };
