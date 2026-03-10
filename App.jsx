@@ -1,5 +1,5 @@
-import { StyleSheet, Text, View, Image, Button, TouchableOpacity, Alert, TouchableHighlight, Pressable } from 'react-native'
-import React,{useState} from 'react'
+import { StyleSheet, Text, View, Image, Button, TouchableOpacity, Alert, TouchableHighlight, Pressable,TextInput } from 'react-native'
+import React, { useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import Colloge from './Componets/componetData.js'
 import Btn from './Componets/button.js'
@@ -8,21 +8,23 @@ import StyleApp from './Componets/styling.js'
 
 
 const App = () => {
+  const [name, setName] = useState("");
 
-  const [name, setName]= useState('Abhisek');
-
-  function newUser (){
-    setName('kushi')
-  }
   return (
     <SafeAreaView>
-      <Text style={{ fontSize: 30 }}>{name} </Text>
-      <PropsUser/>
+      <Text style={{fontSize:20,color:"grey"}}> Enter Your Name: {name} </Text>
+    <TextInput placeholder='Enter the name' style={{borderColor:'blue', color:'Green', borderWidth:2, borderRadius:10,}}
+    onChangeText={(Text) =>setName(Text)}
+    value={name}
+    />
+    <Button
+    title='clear Input Value' onPress={()=>setName('')}
+    />
       
-      <StyleApp/>
+    
     </SafeAreaView>
-  );
-};
+  )
+}
 
 
 export default App
