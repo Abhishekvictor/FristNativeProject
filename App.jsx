@@ -6,15 +6,12 @@ import Btn from './Componets/button.js'
 import PropsUser from './Componets/Props.js'
 import StyleApp from './Componets/styling.js'
 import Formpage from './Componets/login.js'
+import Flastlist from './Componets/flatlist.js'
 
 
 const App = () => {
   return (
-    <SafeAreaView>
-      
-      {/* From page componet */}
-      <Formpage />
-    </SafeAreaView>
+    <Flastlist/>
   )
 }
 
