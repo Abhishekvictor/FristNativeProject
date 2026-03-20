@@ -1,5 +1,5 @@
 
-import { Text, View, FlatList } from "react-native";
+import { Text, View, FlatList, StyleSheet } from "react-native";
 
 const Flastlist = () => {
     const users = [
@@ -19,6 +19,10 @@ const Flastlist = () => {
             id:4,
             userName:'nitya'
         },
+          {
+            id:5,
+            userName:'anuj'
+        },
     ]
 return (
 
@@ -27,11 +31,30 @@ return (
 
         <FlatList
         data={users}
-        renderItem={({user})=> <Text style={{fontSize:30}}> {user.userName} </Text>}
-        
+        renderItem={({item})=><Text style={style.item}>{item.userName}</Text>}
+        keyExtractor={item=>item.id}
         />
     </View>
     )
 }
+
+const style = StyleSheet.create({
+    item:{
+        fontSize:20,
+        padding:20,
+        color:'#ffff',
+        backgroundColor:'blue',
+        borderColor:'black',
+        borderWidth:1,
+        margin:5,
+        
+
+
+
+
+
+    }
+
+})
 
 export default Flastlist
