@@ -114,9 +114,9 @@ export const Grid = () => {
         },
     ]
     return (
-             <ScrollView>
+        <ScrollView>
         <View >
-            <Text>Explain of Dynamic Grid</Text>
+                 <Text>Explain of Dynamic Grid</Text>
             <View style={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap' }}>
 
 
