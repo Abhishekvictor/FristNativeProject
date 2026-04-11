@@ -21,11 +21,6 @@ const Style = StyleSheet.create({
         margin:15,
         borderRadius:10,
         borderWidth:2,
-        
-
-
-
-
 
     }
 })
