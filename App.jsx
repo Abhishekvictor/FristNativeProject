@@ -1,15 +1,14 @@
 import { StyleSheet, Text, View, Image, Button, TouchableOpacity, Alert, TouchableHighlight, Pressable, TextInput } from 'react-native'
 import React, { useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import App2 from './Componets/styleflex.js'
+import App2 from './Componets/stylebutton.js'
 import StyleApp from './Componets/styling.js'
 
 
 const App = () => {
 
    return (
-      <SafeAreaView style={{flex:1, backgroundColor:'black'}}>
-
+      <SafeAreaView style={{flex:1,}}>
          <App2></App2>
       </SafeAreaView>
    )
