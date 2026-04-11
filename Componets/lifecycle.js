@@ -11,7 +11,8 @@ const App2 =() =>{
        <View>
        <Text style ={{fontSize:30}}> life cycle with useeffect{count}
        </Text>
-       <Button title='Update Button' onPress={()=>setCount(count+1)} />
+       <Button title='Update Button' onPress={()=>setCount(count+1)} /> 
+        <Button title='Update Button' onPress={()=>setCount(data+1)} />
        
        </View>
         
