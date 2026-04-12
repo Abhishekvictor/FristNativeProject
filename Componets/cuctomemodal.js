@@ -17,7 +17,7 @@ const App2 = () => {
                     : null
             }
 
-            <Button title='Open Dilog' onPress={()=>setshow(true)}></Button>
+            <Button  title='Open Dilog' onPress={()=>setshow(true)}></Button>
         </View>
     )
 }
@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
 
     },
     dilogbox: {
+    
         backgroundColor: 'rgba(181, 241, 238, 0.49)',
         height: 300,
         width: 250,
