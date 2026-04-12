@@ -1,14 +1,15 @@
-import { StyleSheet, Text, View, Image, Button, TouchableOpacity, Alert, TouchableHighlight, Pressable, TextInput } from 'react-native'
+import { View, Text } from 'react-native'
 import React, { useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import App2 from './Componets/stylebutton.js'
-import StyleApp from './Componets/styling.js'
+import App2 from './Componets/activetyloder.js'
+
 
 
 const App = () => {
 
    return (
-      <SafeAreaView style={{flex:1,}}>
+      <SafeAreaView style={{flex:1}}>
+         
          <App2></App2>
       </SafeAreaView>
    )
