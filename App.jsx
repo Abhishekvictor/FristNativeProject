@@ -1,22 +1,14 @@
 import { View, Text, StatusBar } from 'react-native'
 import React, { useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import App2 from './Componets/statusbar.js'
-
+import App2 from './Componets/cuctomemodal.js'
+import {WebView} from 'react-native-webview'
 
 
 const App = () => {
 
    return (
-      <SafeAreaView style={{flex:1,  backgroundColor:'red'}}>
-      {/* <StatusBar
-      backgroundColor='red'
-      barStyle={'light-content'}
-      // translucent={true}
-      /> */}
-         <View style={{flex:1, backgroundColor:'yellow'}}>
-            <Text>abhishek victor</Text>
-         </View>
+      <SafeAreaView style={{ flex: 1 }}>
       
       </SafeAreaView>
    )
