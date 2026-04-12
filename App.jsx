@@ -9,7 +9,7 @@ const App = () => {
 
    return (
       <SafeAreaView style={{ flex: 1 }}>
-      
+      <App2></App2>
       </SafeAreaView>
    )
 };

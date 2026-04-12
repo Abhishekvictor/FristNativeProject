@@ -8,7 +8,6 @@ const App2 = () => {
             Platform.OS=='android'?
             <Text>this is android</Text>:null
         }
-
         <Text>{JSON.stringify(Platform)}</Text>        
 
         </View>
