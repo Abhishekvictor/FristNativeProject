@@ -1,9 +1,13 @@
-import { View, Text, StatusBar, Button } from 'react-native'
+import { View, Text, StatusBar, Button, Alert } from 'react-native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { NavigationContainer } from '@react-navigation/native'
 
 const Stack = createNativeStackNavigator();
 const App2 = () => {
+
+    const btnAciton = ()=>{
+        Alert.alert('button is clicked')
+    }
     return (
         <NavigationContainer>
             <Stack.Navigator screenOptions={{
@@ -16,9 +20,16 @@ const App2 = () => {
             }
             } >
                 <Stack.Screen name='Home' component={Home}
-
                 />
-                <Stack.Screen name='Login' component={Login} />
+                <Stack.Screen name='Login' component={Login}
+                 options={
+                    {
+                        headerLeft:()=><Button title='Left' onPress={btnAciton}></Button>,
+                        headerRight:()=><Button title='Right'></Button>
+                    }
+                }
+                
+                />
             </Stack.Navigator>
         </NavigationContainer>
 
