@@ -77,6 +77,7 @@ const style = StyleSheet.create({
 
     },
     btnstyle:{
+        
 
     }
 })
