@@ -1,0 +1,156 @@
+{
+  "users": [
+    {
+      "name": "abhisek",
+      "age": "29",
+      "email": "abhishekvictor@gmail.com",
+      "id": "9pCkrK3Oyys"
+    },
+    {
+      "name": "chetu",
+      "age": "23",
+      "email": "chetu@gmail.com",
+      "phone": "7854583543",
+      "id": "ZXUOe58fZCI"
+    },
+    {
+      "name": "sunny",
+      "age": "34",
+      "email": "sunny@gmail.com",
+      "id": "QOJPo4KzHoU"
+    },
+    {
+      "name": "lovely",
+      "age": "2314",
+      "email": "lovely@gmail.com",
+      "id": "JWh7AxBzfG4"
+    },
+    {
+      "name": "abhsihek",
+      "age": "11",
+      "email": "ladu@gmail.com",
+      "id": "AMzZK-HNJs4"
+    },
+    {
+      "name": "nitya",
+      "age": "78",
+      "email": "nitya@gmail.com",
+      "id": "PyZxnV-eWZg"
+    },
+    {
+      "name": "margret",
+      "age": "46",
+      "email": "margret@gmail.com",
+      "id": "pFQn6ZFAJCc"
+    },
+    {
+      "name": "rohit",
+      "age": 26,
+      "email": "roit@gmail.com",
+      "id": "wLudhC7YXus"
+    },
+    {
+      "name": "mohit junjuwala",
+      "age": 78,
+      "email": "mohit@gmail.com",
+      "id": "ab2H2TNrFT0"
+    },
+    {
+      "name": "Lodu lalit",
+      "age": "1000",
+      "email": "lodu@gmail.com",
+      "id": "72Pi1aZ1TMM"
+    },
+    {
+      "name": "lilavati",
+      "age": "26",
+      "email": "baludon@gmail.com",
+      "id": "vG-W8adHyuc"
+    },
+    {
+      "name": "babul",
+      "age": "26",
+      "email": "baludon@gmail.com",
+      "id": "SaYIen8laAM"
+    },
+    {
+      "name": "babul",
+      "age": "26",
+      "email": "baludon@gmail.com",
+      "id": "gZlkiI-xrEo"
+    },
+    {
+      "name": "babul",
+      "age": "26",
+      "email": "baludon@gmail.com",
+      "id": "prQbumrhaJY"
+    },
+    {
+      "name": "abhishekwsd",
+      "age": "34",
+      "email": "abhsihek@mgial.com",
+      "id": "jj4LCXfirIE"
+    },
+    {
+      "name": "abhishekwsd",
+      "age": "34",
+      "email": "abhsihek@mgial.com",
+      "id": "q0Bu-Z8iszM"
+    },
+    {
+      "name": "Abhshiek ",
+      "age": 0,
+      "email": "",
+      "id": "mY_41vY4V_g"
+    },
+    {
+      "name": "",
+      "age": 0,
+      "email": "",
+      "id": "YcRfDtf85fU"
+    },
+    {
+      "name": "fgff",
+      "age": 0,
+      "email": "",
+      "id": "a0ZEfI5nXUY"
+    },
+    {
+      "name": "fgff",
+      "age": 0,
+      "email": "",
+      "id": "CQHBOy8HIQ8"
+    },
+    {
+      "name": "",
+      "age": 0,
+      "email": "",
+      "id": "zGlrWdt3aks"
+    },
+    {
+      "name": "abhiahek",
+      "age": "45",
+      "email": "absihef@gmial",
+      "id": "HAC4PvNJSa4"
+    },
+    {
+      "name": "absahdlj",
+      "age": "23",
+      "email": "abihse@gmail.com",
+      "id": "dSrZl-uFs-8"
+    },
+    {
+      "name": "absahdlj",
+      "age": "23",
+      "email": "abihse@gmail.com",
+      "id": "vdFAxJiqwJs"
+    },
+    {
+      "name": "absahdlj",
+      "age": "234",
+      "email": "abihse@gmail.com",
+      "id": "kAyWyc46mDE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
