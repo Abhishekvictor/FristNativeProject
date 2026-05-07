@@ -7,9 +7,9 @@
       "id": "JWh7AxBzfG4"
     },
     {
-      "name": "mohit",
-      "age": "45",
-      "email": "mohit@gmail.com",
+      "name": "abhsihek",
+      "age": "11",
+      "email": "ladu@gmail.com",
       "id": "AMzZK-HNJs4"
     },
     {
@@ -18,6 +18,6 @@
       "email": "nitya@gmail.com",
       "id": "PyZxnV-eWZg"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
+
 }
