@@ -1,7 +1,7 @@
 import { View, Text, StatusBar } from 'react-native'
 import React, { useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import App2 from './Componets/useRef.js'
+import App2 from './Componets/async.js'
 import {WebView} from 'react-native-webview'
 
 
